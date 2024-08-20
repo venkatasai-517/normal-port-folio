@@ -1655,6 +1655,7 @@ textarea.form-input::-webkit-resizer {
   .input-wrapper {
     gap: 30px;
     margin-bottom: 30px;
+    color: white;
   }
 
   .form-input {
@@ -1778,6 +1779,10 @@ textarea.form-input::-webkit-resizer {
   .form-btn {
     width: max-content;
     margin-left: auto;
+  }
+  .atag {
+    text-decoration: none;
+    color: white;
   }
 }
 
