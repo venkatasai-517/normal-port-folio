@@ -1354,7 +1354,7 @@ textarea.form-input::-webkit-resizer {
  * responsive larger than 580px screen
  */
 
-@media (min-width: 580px) {
+@media (min-width: 500px) {
   /**
    * CUSTOM PROPERTY
    */
@@ -1655,6 +1655,7 @@ textarea.form-input::-webkit-resizer {
   .input-wrapper {
     gap: 30px;
     margin-bottom: 30px;
+    text-decoration: none;
     color: white;
   }
 
@@ -1673,6 +1674,10 @@ textarea.form-input::-webkit-resizer {
 
   .form-btn ion-icon {
     font-size: 18px;
+  }
+  .atag {
+    text-decoration: none;
+    color: white;
   }
 }
 
